@@ -1,0 +1,19 @@
+{
+    "name": "fil7er/diy-crd-controller",
+    "description": "A resource dummy catcher for create dummy sites in k8s cluster",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fil7er\\DiyCrdController\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fil7er",
+            "email": "fil7er@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "renoki-co/php-k8s": "^3.7"
+    }
+}
